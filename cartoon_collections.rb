@@ -10,9 +10,13 @@ end
 
 def long_planteer_calls(lpc)# code an argument here
   # Your code here
-  lpc.any? {|word| word.length > 4}
+  answer = false
+  lpc.each do |call|
+    if call.length > 4
+      answer = true
+    end
   end
-  
+    answer
 end
 
 def find_the_cheese# code an argument here
