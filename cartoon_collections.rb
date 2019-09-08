@@ -10,10 +10,10 @@ end
 
 def long_planteer_calls(lpc)# code an argument here
   # Your code here
-  answer = false
+  answer = true
   lpc.each do |call|
-    if call.length > 4
-      answer = true
+    if call.length <= 4
+      answer = false
     end
   end
     answer
