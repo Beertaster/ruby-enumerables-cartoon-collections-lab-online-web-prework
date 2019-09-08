@@ -8,9 +8,9 @@ def summon_captain_planet(planeteers)
   end
 end
 
-def long_planteer_calls(lpc)# code an argument here
+def long_planteer_calls(array)# code an argument here
   # Your code here
-  lpc.any? {|word| word.length > 4}
+  array.any? {|word| word.length > 4}
 end
 
 def find_the_cheese# code an argument here
