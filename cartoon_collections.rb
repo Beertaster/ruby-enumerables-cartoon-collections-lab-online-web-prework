@@ -10,8 +10,7 @@ end
 
 def long_planteer_calls(lpc)# code an argument here
   # Your code here
-  lpc.any? do |word|
-    word.length > 4
+  lpc.any? {|word| word.length > 4}
   end
   
 end
