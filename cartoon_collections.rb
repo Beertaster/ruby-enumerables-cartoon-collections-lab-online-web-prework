@@ -10,7 +10,7 @@ end
 
 def long_planteer_calls(lpc)# code an argument here
   # Your code here
-  lpc.any? {}
+  lpc.any? {|word| word.length > 4}
 end
 
 def find_the_cheese# code an argument here
